@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  font-family: "Overpass", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.all-container {
+  background-color: hsl(216deg, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ctnr-first,
+.ctnr-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: hsl(213deg, 19%, 18%);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  border-radius: 20px;
+  width: 320px;
+  height: 400px;
+  -webkit-padding-start: 25px;
+          padding-inline-start: 25px;
+  -webkit-padding-end: 35px;
+          padding-inline-end: 35px;
+}
+.ctnr-first__star,
+.ctnr-second__star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  padding-left: 11px;
+  background-color: hsl(214deg, 20%, 25%);
+  border-radius: 50%;
+}
+.ctnr-first__title,
+.ctnr-second__title {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 25px;
+}
+.ctnr-first__parag,
+.ctnr-second__parag {
+  color: hsl(216deg, 12%, 54%);
+  font-size: 15px;
+  line-height: 22px;
+}
+.ctnr-first__numbers,
+.ctnr-second__numbers {
+  color: hsl(216deg, 12%, 54%);
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  transition: 0.3s;
+}
+.ctnr-first__numbers li :hover,
+.ctnr-second__numbers li :hover {
+  transition: 0.3s;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+.ctnr-first__numbers li :focus,
+.ctnr-second__numbers li :focus {
+  transition: 0.3s;
+  background-color: hsl(216deg, 12%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+.ctnr-first__number,
+.ctnr-second__number {
+  width: 40px;
+  height: 40px;
+  background-color: hsl(214deg, 20%, 25%);
+  border-radius: 50%;
+  color: hsl(217deg, 12%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  padding-top: 0.2rem;
+}
+.ctnr-first__btn-ctnr,
+.ctnr-second__btn-ctnr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ctnr-first__btn-ctnr button,
+.ctnr-second__btn-ctnr button {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: hsl(0deg, 0%, 100%);
+  outline: none;
+  border: none;
+}
+.ctnr-first__btn-ctnr :hover,
+.ctnr-second__btn-ctnr :hover {
+  transition: 0.3s;
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+.ctnr-first__submit,
+.ctnr-second__submit {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px 100px;
+  background-color: hsl(25deg, 97%, 53%);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.ctnr-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 460px;
+}
+.ctnr-second__img {
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.ctnr-second__org-text {
+  color: hsl(25deg, 97%, 53%);
+  letter-spacing: 1px;
+  background-color: hsl(214deg, 20%, 25%);
+  padding: 0.6rem 0.8rem 0.4rem 0.8rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+.ctnr-second__title {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-top: 2rem;
+}
+.ctnr-second__parag {
+  text-align: center;
+  margin: 1rem 0rem;
+}
+.ctnr-second #rateBtn {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=style.css.map */
